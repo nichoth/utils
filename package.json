@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "nanobus": "^3.2.1"
+  }
+}
