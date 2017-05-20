@@ -1,5 +1,26 @@
 {
+  "name": "@nichoth/utils",
   "dependencies": {
     "nanobus": "^3.2.1"
-  }
+  },
+  "description": "Trying things",
+  "version": "0.0.0",
+  "main": "request.js",
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/utils.git"
+  },
+  "author": "nichoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/utils/issues"
+  },
+  "homepage": "https://github.com/nichoth/utils#readme"
 }

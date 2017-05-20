@@ -29,6 +29,14 @@ req({ myArgs: 'test' })
     .on('error', console.log.bind(console, 'error'))
     .on('*', console.log.bind(console, 'log all events'))
 
+/*
+start { op: 'foo', args: { myArgs: 'test' } }
+log all events start { op: 'foo', args: { myArgs: 'test' } }
+resolve { op: 'foo', args: { myArgs: 'test' } }
+log all events resolve { op: 'foo', args: { myArgs: 'test' } }
+foo { myArgs: 'test' }
+log all events foo { myArgs: 'test' }
+*/
 
 // if `myModel` has a key equal to the event name, call it
 var myModel = MyModel()

@@ -24,7 +24,7 @@ req({ myArgs: 'test' })
 
 // if `myModel` has a key equal to the event name, call it
 var myModel = MyModel()
-req({ myArgs: 'test' })
+Request('foo', asyncCall)({ myArgs: 'test' })
     .applyTo(myModel)
     .applyTo(myModel.request)
 
