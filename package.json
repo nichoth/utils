@@ -1,6 +1,7 @@
 {
   "name": "@nichoth/utils",
   "dependencies": {
+    "inherits": "^2.0.3",
     "nanobus": "^3.2.1"
   },
   "description": "Trying things",
